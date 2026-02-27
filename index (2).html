@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container bg-light" id="sectionOne">
+        <div class="row">
+            <div class="col-12 mb-5">
+                <h1 class="heading-one mt-5">Welcome to the Quiz App!</h1>
+                <p class="paragraph-one mt-3">Select a topic to start the quiz:</p>
+            </div>
+            <div class="col-3 card shadow-lg p-4 m-5">
+                <center><img src="https://res.cloudinary.com/denizarnm/image/upload/v1762594732/generated-image_1_mwwkar.jpg" class="card-image w-75" /> </center>
+                <div>
+                    <center>
+                        <p class="topic-title">General Knowledge</p>
+                        <button class="btn btn-outline-success" id="generalKnowledgeQuiz">Let's Play</button>
+                    </center>
+                </div>
+            </div>
+            <div class="col-3 card shadow-lg p-4 m-5">
+                <center><img src="https://res.cloudinary.com/denizarnm/image/upload/v1762594760/generated-image_3_c1r4dk.jpg" class="card-image w-75" /> </center>
+                <div>
+                    <center>
+                        <p class="topic-title">Science</p>
+                        <button class="btn btn-outline-success" id="scienceQuiz">Let's Play</button>
+                    </center>
+                </div>
+            </div>
+            <div class="col-3 card shadow-lg p-4 m-5">
+                <center><img src="https://res.cloudinary.com/denizarnm/image/upload/v1762594772/generated-image_4_gnh6ir.jpg" class="card-image w-75" /> </center>
+                <div>
+                    <center>
+                        <p class="topic-title">Technology</p>
+                        <button class="btn btn-outline-success" id="technologyQuiz">Let's Play</button>
+                    </center>
+                </div>
+            </div>
+            <div class="col-3 card shadow-lg p-4 m-5">
+                <center><img src="https://res.cloudinary.com/denizarnm/image/upload/v1762594789/generated-image_5_livvap.jpg" class="card-image w-75" /> </center>
+                <div>
+                    <center>
+                        <p class="topic-title">Movies, Books & TV</p>
+                        <button class="btn btn-outline-success" id="teluguIndustryQuiz">Let's Play</button>
+                    </center>
+                </div>
+            </div>
+            <div class="col-3 card shadow-lg p-4 m-5">
+                <center><img src="https://res.cloudinary.com/denizarnm/image/upload/v1762594802/generated-image_6_gtztad.jpg" class="card-image w-75" /> </center>
+                <div>
+                    <center>
+                        <p class="topic-title">Arts & Culture</p>
+                        <button class="btn btn-outline-success" id="artsCultureIndiaQuiz">Let's Play</button>
+                    </center>
+                </div>
+            </div>
+            <div class="col-3 card shadow-lg p-4 m-5">
+                <center><img src="https://res.cloudinary.com/denizarnm/image/upload/v1762594813/generated-image_7_uyldhs.jpg" class="card-image w-75" /> </center>
+                <div>
+                    <center>
+                        <p class="topic-title">Sports</p>
+                        <button class="btn btn-outline-success" id="sportsQuiz">Let's Play</button>
+                    </center>
+                </div>
+            </div>
+            <div class="col-3 card shadow-lg p-4 m-5">
+                <center><img src="https://res.cloudinary.com/denizarnm/image/upload/v1762594825/generated-image_8_awfbq0.jpg" class="card-image w-75" /> </center>
+                <div>
+                    <center>
+                        <p class="topic-title">Mathematics</p>
+                        <button class="btn btn-outline-success" id="mathematicsQuiz">Let's Play</button>
+                    </center>
+                </div>
+            </div>
+            <div class="col-3 card shadow-lg p-4 m-5">
+                <center><img src="https://res.cloudinary.com/denizarnm/image/upload/v1762594835/generated-image_9_sczesz.jpg" class="card-image w-75" /> </center>
+                <div>
+                    <center>
+                        <p class="topic-title">Modern Technology</p>
+                        <button class="btn btn-outline-success" id="modernTechnologyQuiz">Let's Play</button>
+                    </center>
+                </div>
+            </div>
+            <div class="col-3 card shadow-lg p-4 m-5">
+                <center><img src="https://res.cloudinary.com/denizarnm/image/upload/v1762594846/generated-image_10_ts5cgi.jpg" class="card-image w-75" /> </center>
+                <div>
+                    <center>
+                        <p class="topic-title">Funny or Random</p>
+                        <button class="btn btn-outline-success" id="funnyRandomQuiz">Let's Play</button>
+                    </center>
+                </div>
+            </div>
+            <div class="col-3 card shadow-lg p-4 m-5">
+                <center><img src="https://res.cloudinary.com/denizarnm/image/upload/v1762594860/generated-image_11_qqfopz.jpg" class="card-image w-75" /> </center>
+                <div>
+                    <center>
+                        <p class="topic-title">Literature & Grammar</p>
+                        <button class="btn btn-outline-success" id="literatureGrammarQuiz">Let's Play</button>
+                    </center>
+                </div>
+            </div>
+            <div class="col-3 card shadow-lg p-4 m-5">
+                <center><img src="https://res.cloudinary.com/denizarnm/image/upload/v1762595307/generated-image_12_ynlgg2.jpg" class="card-image w-75" /> </center>
+                <div>
+                    <center>
+                        <p class="topic-title">Kids Quizzes</p>
+                        <button class="btn btn-outline-success" id="kidsQuiz">Let's Play</button>
+                    </center>
+                </div>
+            </div>
+            <div class="col-3 card shadow-lg p-4 m-5">
+                <center><img src="https://res.cloudinary.com/denizarnm/image/upload/v1762595313/generated-image_13_xjd2bg.jpg" class="card-image w-75" /> </center>
+                <div>
+                    <center>
+                        <p class="topic-title">Constitution</p>
+                        <button class="btn btn-outline-success" onclick="letsPlay()" id="indianConstitutionQuiz">Let's Play</button>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionTwo" class="container-fluid p-5 bg-two">
+        <div class="row">
+            <div class="col-12 mt-4">
+                <div class="mb-4">
+                    <h1 class="lilita-one-regular" id="quizTittle">Master Your Knowledge: The Ultimate Challenge</h1>
+                </div>
+                <div>
+                    <h1 class="question shadow-lg mb-5" id="question">what is the question?</h1>
+                </div>
+                <ul id="optionsList">
+                    <li><input type="radio" name="quizOption" id="option1" value="Option 1"><label class="shadow" for="option1" id="optionLabelOne">Option 1</label></li>
+                    <li><input type="radio" name="quizOption" id="option2" value="Option 2"><label class="shadow" for="option2" id="optionLabelTwo">Option 2</label></li>
+                    <li><input type="radio" name="quizOption" id="option3" value="Option 3"><label class="shadow" for="option3" id="optionLabelThree">Option 3</label></li>
+                    <li><input type="radio" name="quizOption" id="option4" value="Option 4"><label class="shadow" for="option4" id="optionLabelFour">Option 4</label></li>
+                </ul>
+                <div>
+                    <p id="questionText"></p>
+                </div>
+                <div class="button-row">
+                    <button onclick="submitAnswer()" class="button" id="submitBtn">Submit Answer</button>
+                    <button onclick="nextQuestion()" class="button" id="nxtBtn" disabled>Next Question</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionThree">
+        <div class="container d-flex flex-column justify-content-center bg-three m-5">
+            <div class="card shadow-lg p-4 m-5">
+                <h1 class="final-heading text-center mb-5">🎉 Congratulations! You’ve completed the quiz!</h1>
+                <div>
+                    <center><button class="btn btn-outline-info" id="homePage">Home Page</button></center>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
